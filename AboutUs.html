@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+    <title>About Us Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+
+    <style>
+        /* .left{
+            border: 2px solid red; 
+            display: inline-block;
+            position: absolute;
+            left: 45px;
+            top: 20px;
+
+            
+
+        }
+        .left img{
+            width: 70px;
+            filter: invert(100%);
+            border-radius: 50px;
+        }
+        #cname{
+            color: white;
+        }
+        
+        .left div{
+                  text-align: left;
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+                
+                  
+        }
+
+
+        .mid{
+             border: 2px solid green; 
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .right{
+            border: 2px solid yellow; 
+            display: inline-block;
+            position: absolute;
+            right: 35px;
+            top: 55px;
+            
+
+        }
+        header{
+            background-color: black;
+            height: 100px;
+            
+            
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 20px;
+        }
+        .navbar li a:hover{
+            color: rgb(254, 254, 254);
+            text-decoration: none;
+            font-size: 24px;
+            
+        }
+        .btn{
+            margin: 0px 8px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+        .btn:hover{
+            
+            transform: scale(1.5);
+            
+
+        }
+        #myImage {
+    animation-name: rotate-image;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes rotate-image {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+
+        body{
+            background-color: rgb(219, 231, 231);
+        }
+        .container{
+            width: 1060px;
+        }
+
+
+        h1{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #para{
+            display: none;
+        }
+        .card-body{
+            background-color: rgb(148, 83, 208);
+        }
+        div h1{
+            color: rgb(148, 69, 222);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        div p{
+            font-family: 'Times New Roman', Times, serif;
+            text-align:center;
+        }
+        
+        .card{ animation:skew 2s infinite alternate-reverse;
+        height: 500px;
+             width: 60px;}
+
+            @keyframes skew { 
+                0%   {transform: scale(1, 1)}
+  25%   {transform: skew(2deg) }
+  50%   {transform: skew(4deg)  }
+  75%   {transform: skew(6deg) }
+  100%   {transform: skew(8deg) }
+            }
+
+
+            .footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-image: linear-gradient(to right, rgb(95, 75, 157) , rgb(243, 239, 238));
+  color: white;
+  margin-top: 20px;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border-radius: 12px;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.btn{
+    color: purple;
+    background-color: white;
+    align-self: center;
+}
+.pagination{
+
+margin: 20px;
+padding: 10px;
+}
+.btn{
+      margin-left: 5px;
+      color: blue;
+    
+    
+      
+    }  
+.btn a{
+    text-decoration: none;
+}     
+
+    </style>
+
+</head>
+
+<body>
+    <!-- <header class="header">
+        
+        <div class="left">
+            <img src="images/logo.png" alt="image" id="myImage">
+            <div id="cname">Anytime Fitness</div>
+        </div>
+
+        
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="AboutUs.html" target="_blank">Traning</a></li>
+                <li><a href="bmiCalculator.html" target="_blank">Fitness Calculator</a></li>
+                <li><a href="contact1.html" target="_blank">Contact us</a></li>
+            </ul>
+        </div>
+
+         right box for buttons 
+        <div class="right">
+            <button class="btn" onclick="window.open('SignIn.html')">Sign In</button>
+
+            <button class="btn" onclick="window.open('SignUp.html')">Log In</button>
+        </div>
+
+    </header> -->
+    
+    <div class="container">
+        <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item " >
+                <a class="page-link" href="contact1.html" id="prev">Previous</a>
+              </li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link"  id="pagenumber" href="AboutUs.html">1</a>
+              </li>
+      
+              <li class="page-item" ><a class="page-link" id="pagenumber" href="bmiCalculator.html">2</a></li>
+      
+              <li class="page-item "><a class="page-link" id="pagenumber" href="contact1.html">3</a></li>
+              
+              <li class="page-item">
+                <a class="page-link" href="bmiCalculator.html">Next</a>
+              </li>
+              <button type="button" class="btn btn-light"><a href="index1.html">Home</a></button>
+            </ul>
+          </nav>
+        
+        <div class="row align-items-center p-5 text-center">
+
+           
+
+            <h1> Providing Coach-led Personal and Group Fitness Training</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id saepe dolorem, incidunt quisquam voluptatibu Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolore voluptate, consequatur voluptatem deserunt ipsam magni nihil odit expedita asperiores nesciunt pariatur repudiandae nulla, eum, consequuntur vitae? Autem, sit eius.</p>
+
+            <p id="para">Designed to help you reach your own individual goals. Our coaches lead group and one-on-one workouts that actually work. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam in obcaecati repellendus doloremque nihil dolores repellat harum temporibus veritatis magni aperiam, consequatur unde animi, nesciunt laboriosam mollitia accusantium quisquam praesentium!
+                
+            </p>
+            <button type="button" class="btn btn-primary btn-sm " id="btn">Show
+                
+                More</button>
+           
+        </div>
+
+       
+
+
+    
+
+        <div class="row p-5">
+
+
+            <div class="card " style="width: 18rem;" id="card1">
+                <img src="images/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">FITNESS
+                        CONSULTATION</h5>
+                    <p class="card-text">Through a short survey, conversation, and a movement assessment, your coach will prescribe the perfect program to get you started and on track to meet your fitness goals..</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card mx-5  " style="width: 18rem;" id="card2">
+                <img src="images/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">GROUP
+                        WORKOUTS</h5>
+                    <p class="card-text">Full-body workouts are designed to build strength and endurance, using the energy of a small group or team of people around you and the expertise of the coach to maximize your results.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" id="card3">
+                <img src="images/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ONE-ON-ONE TRAINING</h5>
+                    <p class="card-text">One-on-one personalized workouts with your coach are designed to make you stronger from the inside out.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, numquam!</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="footer">
+            <div class="social-icons">
+              <a href="http://www.facebook.com" target="_blank"><img src="images/fb.png" alt="Facebook"/></a>
+              <a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"/></a>
+              <a href="http://www.instagram.com" target="_blank"><img src="images/insta.png" alt="Instagram"/></a>
+              <a href="http://www.linkedin.com" target="_blank"><img src="images/linkd.png" alt="LinkedIn"/></a>
+            </div>
+            <p class="copyright">&copy; Copyright Reserved : AnytimeFitness.com</p>
+          </div>
+    
+    </div>
+   
+    
+        
+
+       
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        
+ 
+    <script>
+        
+        $(document).ready(function() {
+
+  $('#btn').click(function() {
+
+    $('#para').toggle();
+
+    if ($('#para').is(':visible')) {
+
+      $(this).text('Show Less');
+    } else {
+      $(this).text('Show More');
+    }
+
+  });
+
+});
+
+
+</script>
+
+    
+</body>
+
+</html>
